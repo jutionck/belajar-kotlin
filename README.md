@@ -4,9 +4,10 @@
 ***Pertemuan 1***
 
 Materi:
-1. Variable
-2. Operator
-3. Input/Output
-4. Condition (If and When)
-5. Loop (For and While)
+1.1 Variable
+1.2. Inferred Type
+2. Input/Output
+3. Condition (IfElse)
+4. Condition(When)
+5. Loop (For)
 6. Array
