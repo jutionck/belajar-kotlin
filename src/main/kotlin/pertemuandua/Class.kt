@@ -27,7 +27,7 @@ fun main() {
     printInfo(someOneCar) //isinya ikut berubah yang aslinya karena alamat memori sama
 }
 
-//hasilnya
+//hasilnya yang udah di jadiin function
 private fun printInfo(myCar: Car) {
     println(myCar)
     myCar.color
@@ -39,3 +39,12 @@ class Car {
     var name: String = ""
     var brand: String = ""
 }
+
+
+// Catatan:
+// kalau primitive data type/ variable biasa itu passing value nya
+// myFerrari -> myCar@8efb846 <- someoneCar = myFerrari
+// myCar@8efb846 -> color
+//               -> name
+//               -> brand
+// kalau object yang dipassing reference alamat memory nya
