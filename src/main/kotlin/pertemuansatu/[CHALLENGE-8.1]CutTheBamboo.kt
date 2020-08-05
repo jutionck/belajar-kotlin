@@ -24,3 +24,7 @@ fun main() {
         }
     }
 }
+
+fun cutTheBamboo() {
+
+}
