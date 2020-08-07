@@ -11,5 +11,6 @@ fun main() {
     println(studentList.joinToString())
 
     val wanted = Student("Maulana", 22, "M")
-    println(maul == wanted)
+    //fitur contains ini pakai fitur equal nya object, kalo ada object
+    println(studentList.contains(wanted))
 }
