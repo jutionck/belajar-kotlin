@@ -1,5 +1,3 @@
-package pertemuandua
-
 //data disini langsung print value nya
 //data class Kucing(
 //        var color: String = "",
