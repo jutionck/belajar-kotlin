@@ -2,9 +2,12 @@ package pertemuantiga
 
 class Robot(sumbuX: Int = 0, sumbuY: Int = 0) {
     var sumbuX: Int = sumbuX
+        private set
     var sumbuY: Int = sumbuY
+        private set
 
     fun moving() {
+        println("F: Forwaard || B: Backward || R: Right || L: Left")
         print(">Input perintah: ")
         var inputPerintah = readLine()
         if (inputPerintah != null) {
