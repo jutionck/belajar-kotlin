@@ -3,9 +3,9 @@ package pertemuanempat
 fun main() {
 
     val direction = Direction()
-    println(direction.turnLeft("EAST"))
-    println(direction.turnLeft("NORTH"))
-    println(direction.turnRight("WEST"))
+    println(direction.turnLeft("EAST")) //output: NORTH
+    println(direction.turnLeft("NORTH")) //output: WEST
+    println(direction.turnRight("WEST")) //output: NORTH
 }
 
 class Direction {
