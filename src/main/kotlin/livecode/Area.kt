@@ -14,13 +14,13 @@ class Area(x:Int = 0,y:Int = 0){
 
     fun coverArea(listAntenna: MutableList<Area>){
 
-        val intersection: MutableSet<Antenna> = mutableSetOf()
+        val intersection = mutableSetOf<Any>()
         for (i in 0 until listAntenna.size){
             for (j in 0..i) {
                 if (i == j) {
                     break
                 } else {
-                    intersection.plusAssign(listAntenna[i].coverage.intersect(listAntenna[j].coverage))
+                    intersection.add(listAntenna[i].coverage.intersect(listAntenna[j].coverage))
                 }
             }
         }

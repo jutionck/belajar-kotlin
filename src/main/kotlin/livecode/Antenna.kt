@@ -1,7 +1,7 @@
 package livecode
 
 
-data class Antenna(private val x: Int = 0, private val y: Int=0) {
+class Antenna(private val x: Int = 0, private val y: Int=0) {
 
     fun coverage(x:Int, y:Int):MutableSet<Antenna>{
         var x = x-1
